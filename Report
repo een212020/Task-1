@@ -5,4 +5,5 @@ Create MOD-5 Synchronous Counter using JK flipflops.
 Targets Achieved:
 - Schematics of all circuits
 - DRC, LVS and PEX Report of all circuits
-- Pre and post layout simulation waveforms for all circuits
+- Pre and Post layout simulation waveforms for all circuits
+- Timing Information
