@@ -6,4 +6,8 @@ Targets Achieved:
 - Schematics of all circuits
 - DRC, LVS and PEX Report of all circuits
 - Pre and Post layout simulation waveforms for all circuits
-- Timing Information
+- Timing Information of all combinational circuits
+
+Targets Unachieved:
+- Hold time, setup time, minimum frequency of sequential circuits
+    Reason: Lack of knowledge on how to compute the stated paramenters from waveform
