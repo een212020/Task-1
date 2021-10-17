@@ -1,0 +1,60 @@
+*----------------------------------------------------------------------------------------
+*	Innovus 16.26-s040_1 (64bit) 03/14/2018 00:26 (Linux 2.6.18-194.el5)
+*	
+*
+* 	Date & Time:	2021-Oct-16 23:11:07 (2021-Oct-16 17:41:07 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: counter
+*
+*	Liberty Libraries used: 
+*	        worst_case: ../timing_lib/uk65lscllmvbbr_090c125_wc_ccs.lib
+*
+*	Power Domain used: 
+*		Rail:        VDD 	Voltage:        0.9 
+*
+*       Power View : worst_case
+*
+*       User-Defined Activity : N.A.
+*
+*       Activity File: N.A.
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       Temperature = 125 
+*
+*       report_power -outfile ./run1/counter.rpt -rail_analysis_format VS
+*
+-----------------------------------------------------------------------------------------
+Cell                            Internal   Switching       Total     Leakage   Cell
+                                   Power       Power       Power       Power   Name
+--------------------------------------------------------------------------------------
+y_reg[1]                       0.0005501   4.502e-05    0.000597   1.884e-06  DFCM2RA
+y_reg[0]                       0.0005304   4.216e-05   0.0005741   1.569e-06  DFCQM2RA
+y_reg[2]                       0.0004957   2.147e-05   0.0005191   1.889e-06  DFCM2RA
+g204                           4.255e-05   2.657e-05   6.962e-05   5.004e-07  MXB2M1RA
+g202                           3.982e-05   9.678e-06   4.987e-05   3.767e-07  NR2B1M2R
+g200                           3.388e-05   1.138e-05   4.553e-05   2.599e-07  AOI32M2R
+g203                           2.573e-05   9.648e-06   3.569e-05   3.128e-07  AOI211M2R
+g198                           1.009e-05   5.463e-06   1.578e-05   2.253e-07  NR2M2R
+
+---------------------------------------------------------------------------------------
+
+Total (      8 of      8  )     0.001728   0.0001714   0.001907   7.017e-06
+Total Capacitance                1.877e-14 F
+Power Density                   *** No Die Area ***
